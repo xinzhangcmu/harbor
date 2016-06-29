@@ -9,8 +9,8 @@
 Project Harbor is an enterprise-class registry server, which extends the open source Docker Registry server by adding the functionality usually required by an enterprise, such as security, control, and management. Harbor is primarily designed to be a private registry - providing the needed security and control that enterprises require.  It also helps minimize bandwidth usage, which is helpful to both improve productivity (local network access) as well as performance (for those with poor internet connectivity).
 
 ### Features
-* **Role Based Access Control**: Users and Docker repositories are organized via "projects", a user can have different permission for images under a project.
-* **Graphical user portal**: User can easily browse, search Docker repositories, manage projects/namespaces.
+* **Role Based Access Control**: Users and Docker repositories are organized via "projects", a user can have different permissions for images under a project.
+* **Graphical user portal**: User can easily browse and search Docker repositories, and manage projects/namespaces.
 * **AD/LDAP support**: Harbor integrates with existing enterprise AD/LDAP for user authentication and management.
 * **Auditing**: All the operations to the repositories are tracked.
 * **Internationalization**: Already localized for English, Chinese, German, Japanese and Russian. More languages can be added.
@@ -52,9 +52,9 @@ $ docker push reg.yourdomain.com/myproject/myrepo
 ```
 
 **NOTE:**  
-For those who don't want to clone the source, or need to install Harbor on a server not connected to the Internet - there is a pre-built installation package available. For details on how to download and use this installation package, please refer to [Installation and Configuration Guide](docs/installation_guide.md) .
+For those who don't want to clone the source, or need to install Harbor on a server not connected to the Internet - there is a pre-built installation package available. For details on how to download and use this installation package, please refer to the [Installation and Configuration Guide](docs/installation_guide.md) .
 
-For information on how to use Harbor, please see [User Guide](docs/user_guide.md) .
+For information on how to use Harbor, please see the [User Guide](docs/user_guide.md) .
 
 ### Contribution
 We welcome contributions from the community. If you wish to contribute code and you have not signed our contributor license agreement (CLA), our bot will update the issue when you open a pull request. For any questions about the CLA process, please refer to our [FAQ](https://cla.vmware.com/faq).
